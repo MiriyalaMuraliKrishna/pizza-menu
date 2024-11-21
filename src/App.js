@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
-  let start = 0;
+  let start = 10;
   const [state, setState] = useState(start);
   useEffect(function () {
     const interval = setInterval(() => {
-      setState((prevState) => prevState + 1);
+      setState((start) => start - 1);
     }, 1000);
 
     // Clear the interval after 10 seconds
