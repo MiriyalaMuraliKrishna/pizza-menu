@@ -21,7 +21,11 @@ function App() {
     };
   }, []);
 
-  return <h1>React pizza app {state}</h1>;
+  return (
+    <div>
+      <h1>React pizza app {state}</h1>
+    </div>
+  );
 }
 
 export default App;

@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.flex{display: flex; flex-wrap: wrap;}
+img{max-width: 100%;}
+.image{width: 200px;}
+.text{flex: 1;}
+
+.skill-list{gap: 10px;}
+.test-card{width: 400px; margin: auto; padding: 20px; height: auto; border: 6px solid rgb(44, 12, 190); border-radius: 20px;}
