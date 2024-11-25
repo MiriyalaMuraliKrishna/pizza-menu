@@ -4,18 +4,18 @@ import "./index.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import reportWebVitals from "./reportWebVitals";
 import Test from "./components/Test";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Header />
     <App />
+<<<<<<< HEAD
     <Test />
     <Footer />
+=======
+>>>>>>> edd5b72c7880f1905529bb4c6d0fd28c6fa5be3c
   </React.StrictMode>
 );
 
